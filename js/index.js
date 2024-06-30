@@ -28,6 +28,34 @@ function division_condition(event){
         resultDiv.appendChild(img);// 將 img 元素添加到 resultDiv 中
         resultImage.style.display = "block";
     }
+    else if (numerators == 2 && denominators == 28) {
+        var img = document.createElement("img");
+        img.src = "./pic/b1e0c06e-45c6-487e-96cf-583e22340e24.gif"; // 在此處替換成你想要顯示的圖片的 URL
+        img.alt = "2/28";
+        resultDiv.appendChild(img);// 將 img 元素添加到 resultDiv 中
+        resultImage.style.display = "block";
+    }
+    else if (numerators == 5 && denominators == 20) {
+        var img = document.createElement("img");
+        img.src = "./pic/tsai.gif"; // 在此處替換成你想要顯示的圖片的 URL
+        img.alt = "5/20";
+        resultDiv.appendChild(img);// 將 img 元素添加到 resultDiv 中
+        resultImage.style.display = "block";
+    }
+    else if (numerators == 8 && denominators == 6) {
+        var img = document.createElement("img");
+        img.src = "./pic/587ceb05caba7a91c5630b6bfda0f4e8.gif"; // 在此處替換成你想要顯示的圖片的 URL
+        img.alt = "8/6";
+        resultDiv.appendChild(img);// 將 img 元素添加到 resultDiv 中
+        resultImage.style.display = "block";
+    }
+    else if (numerators == 8 && denominators == 9) {
+        var img = document.createElement("img");
+        img.src = "./pic/587ceb05caba7a91c5630b6bfda0f4e8.gif"; // 在此處替換成你想要顯示的圖片的 URL
+        img.alt = "8/9";
+        resultDiv.appendChild(img);// 將 img 元素添加到 resultDiv 中
+        resultImage.style.display = "block";
+    }
     else {
         if (denominators != 0) {
             var result = numerators / denominators;
