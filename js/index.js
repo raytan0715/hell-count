@@ -21,6 +21,13 @@ function division_condition(event){
         resultDiv.appendChild(img);// 將 img 元素添加到 resultDiv 中
         resultImage.style.display = "block";
     }
+    else if (numerators == 4 && denominators == 20) {
+        var img = document.createElement("img");
+        img.src = "./pic/MJYE9Qr8DS1sDCnnxJEWimHjmWroL077.gif"; // 在此處替換成你想要顯示的圖片的 URL
+        img.alt = "4/20";
+        resultDiv.appendChild(img);// 將 img 元素添加到 resultDiv 中
+        resultImage.style.display = "block";
+    }
     else {
         if (denominators != 0) {
             var result = numerators / denominators;
